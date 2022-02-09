@@ -150,7 +150,7 @@ final class MetadataAwareNameConverterTest extends TestCase
             ['buzForExport', 'buz', ['groups' => 'b']],
             ['buz', 'buz', ['groups' => ['c']]],
             ['buz', 'buz', []],
-            ['baz', 'bax', []] // this is the condition I added
+            ['baz', 'bax', []] // this is the condition I added for test right above
         ];
     }
 
