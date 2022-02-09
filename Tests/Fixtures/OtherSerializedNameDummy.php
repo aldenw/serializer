@@ -24,6 +24,14 @@ class OtherSerializedNameDummy
      */
     private $buz;
 
+    /**
+     * This is the property I added to test
+     *
+     * @Groups({"c"})
+     * @SerializedName("bax")
+     */
+    private $baz;
+
     public function setBuz($buz)
     {
         $this->buz = $buz;
