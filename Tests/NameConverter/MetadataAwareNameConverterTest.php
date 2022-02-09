@@ -151,6 +151,18 @@ final class MetadataAwareNameConverterTest extends TestCase
             ['buz', 'buz', ['groups' => ['c']]],
             ['buz', 'buz', []],
             ['baz', 'bax', []] // this is the condition I added for test right above
+
+            /**
+             * I'm asserting that, when the name converter is asked to denormalize a property
+             * named "bax", and the context is empty (i.e. no groups), that the expected name
+             * should be "baz".
+             *
+             * As I understand it leaving the groups context empty means do all or everything.
+             * It seems, though, when combined with the SerializedName annotation this is not
+             * the case.
+             *
+             * Could this be intended behaviour for some reason?  I would think this is a bug.
+             */
         ];
     }
 
