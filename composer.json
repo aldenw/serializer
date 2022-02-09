@@ -32,7 +32,8 @@
         "symfony/property-access": "^4.4.36|^5.3.13",
         "symfony/property-info": "^3.4.13|~4.0|^5.0",
         "symfony/validator": "^3.4|^4.0|^5.0",
-        "symfony/yaml": "^3.4|^4.0|^5.0"
+        "symfony/yaml": "^3.4|^4.0|^5.0",
+        "phpunit/phpunit": "*"
     },
     "conflict": {
         "phpdocumentor/reflection-docblock": "<3.0|>=3.2.0,<3.2.2",
