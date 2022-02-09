@@ -25,7 +25,7 @@ class OtherSerializedNameDummy
     private $buz;
 
     /**
-     * This is the property I added to test
+     * This is the property I added to test fixture
      *
      * @Groups({"c"})
      * @SerializedName("bax")
