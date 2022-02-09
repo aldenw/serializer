@@ -157,7 +157,7 @@ final class MetadataAwareNameConverterTest extends TestCase
              * named "bax", and the context is empty (i.e. no groups), that the expected name
              * should be "baz".
              *
-             * As I understand it leaving the groups context empty means do all or everything.
+             * As I understand it leaving the groups context key empty means "all properties".
              * It seems, though, when combined with the SerializedName annotation this is not
              * the case.
              *
